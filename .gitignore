@@ -2,9 +2,9 @@
 .DS_Store
 /.vagrant
 /public/content/cache/*
-/public/content/themes/*
 /public/content/mu-plugins/*
 /public/content/plugins/*
+/public/content/themes/*
 /public/content/languages/*
 /public/content/upgrade/*
 /public/content/uploads/*
