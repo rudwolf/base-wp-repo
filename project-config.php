@@ -10,7 +10,7 @@ $table_prefix = 'wp_';
 // Language
 // Leave blank for American English
 // ================================
-define( 'WPLANG', '' );
+define( 'WPLANG', 'pt_BR' );
 
 // ==============================================================
 // Salts, for security

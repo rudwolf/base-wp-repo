@@ -2,8 +2,10 @@
 .DS_Store
 /.vagrant
 /public/content/cache/*
+/public/content/themes/*
 /public/content/mu-plugins/*
 /public/content/plugins/*
+/public/content/languages/*
 /public/content/upgrade/*
 /public/content/uploads/*
 /public/wpanel
@@ -16,6 +18,7 @@ local-config.php
 # Except index files to create the directory structure
 !public/content/mu-plugins/index.php
 !public/content/plugins/index.php
+!public/content/languages/index.php
 !public/content/themes/index.php
 !public/content/upgrade/index.php
 !public/content/uploads/index.php
