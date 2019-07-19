@@ -6,7 +6,7 @@
   "require": {
     "johnpbloch/wordpress": "5.*",
     "wpackagist-theme/twentyseventeen": "1.*",
-    "wpackagist-plugin/formidable": "3.04.01",
+    "wpackagist-plugin/formidable": "4.*"
   },
   "require-dev": {},
   "extra": {
