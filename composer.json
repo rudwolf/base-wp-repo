@@ -1,0 +1,32 @@
+{
+  "name": "rudwolf/base-wp-repo",
+  "description": "Composer package for initial WordPress project installation. Based on johnpbloch/wordpress-project.",
+  "version": "0.1.0",
+  "type": "project",
+  "require": {
+    "johnpbloch/wordpress": "5.*",
+    "wpackagist-theme/twentyseventeen": "1.*",
+    "wpackagist-plugin/formidable": "3.04.01",
+  },
+  "require-dev": {},
+  "extra": {
+    "wordpress-install-dir": "public/wpanel",
+    "installer-paths": {
+      "public/content/plugins/{$name}": [
+        "type:wordpress-plugin"
+      ],
+      "public/content/mu-plugins/{$name}": [
+        "type:wordpress-muplugin"
+      ],
+      "public/content/themes/{$name}": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ]
+}

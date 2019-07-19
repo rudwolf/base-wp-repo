@@ -1,0 +1,26 @@
+# Ignore composer generated files and directories
+.DS_Store
+/.vagrant
+/public/content/cache/*
+/public/content/mu-plugins/*
+/public/content/plugins/*
+/public/content/upgrade/*
+/public/content/uploads/*
+/public/wpanel
+/vendor
+
+# Ignore the local config
+local-config.php
+
+
+# Except index files to create the directory structure
+!public/content/mu-plugins/index.php
+!public/content/plugins/index.php
+!public/content/themes/index.php
+!public/content/upgrade/index.php
+!public/content/uploads/index.php
+
+
+# If you have a plugin, theme, or mu-plugin that you really do want to put into
+# version control, add an exception here. Exceptions will look like this:
+#   !public/content/plugins/plugin-folder
