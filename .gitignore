@@ -4,6 +4,7 @@
 /public/content/cache/*
 /public/content/mu-plugins/*
 /public/content/plugins/*
+/public/content/themes/*
 /public/content/upgrade/*
 /public/content/uploads/*
 /public/wpanel
